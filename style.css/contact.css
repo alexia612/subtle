@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+.contact-banner {
+  background-color: #8b806c;
+  max-width: 100%;
+  height: 200px;
+  margin-top: 10px;
+  font-size: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  line-height: 200px;
+  }
+
+.contact-mid {
+  display: flex;
+}
+
+.contact-left {
+  width: 60%;
+  padding-left: 20px;
+}
+
+.contact-right {
+  width: 40%;
+}
+
+.contact-title {
+  font-size: 30px;
+}
+
+.contact-desc {
+  line-height: 30px;
+  max-width: 100%;
+}
+
+.con-right-desc {
+  border: #623F28 solid 1px;
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 100%;
+  height: 30px;
+  text-align: center;
+  line-height: 20px;
+  font-weight: 100;
+}
+
+.contact-desc-ul {
+  list-style-type: disc;
+}
+
+.contact-desc-li::marker {
+  color: #623F28;
+}

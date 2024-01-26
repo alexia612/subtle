@@ -206,12 +206,12 @@ img {
 
 /* --------------------newin------------------------------ */
 
-.newin-pic, .clothing-pic {
+.newin-pic {
     display: flex;
-    width: 1400px;
+    max-width: 100%;
+    height: auto;
     flex-wrap: wrap;
-    margin-left: auto;
-    margin-right: auto;
+    padding-left: 45px;
 }
 
 .newin-inner, .clothing-inner {
@@ -219,6 +219,10 @@ img {
     position: relative;
 }
 
+.newin-flip, .newin-inner {
+    max-width: 100%;
+    height: auto;
+}
 .newin-flip {
     padding-right: 15px;
     position: absolute;
@@ -287,110 +291,4 @@ img {
 .clo-item:hover {
     background-color: #623F28;
     color: #8b806c;
-}
-
-/* ----------------------------contact---------------------------- */
-
-.contact-banner {
-    background-color: #623F28;
-    width: 1400px;
-    height: 200px;
-    margin-top: 10px;
-    font-size: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    line-height: 200px;
-    }
-
-.contact-mid {
-    display: flex;
-}
-
-.contact-left {
-    width: 60%;
-    padding-left: 20px;
-}
-
-.contact-right {
-    width: 40%;
-}
-
-.contact-title {
-    font-size: 30px;
-}
-
-.contact-desc {
-    line-height: 30px;
-}
-
-.con-right-desc {
-    border: #623F28 solid 1px;
-    border-radius: 10px;
-    padding: 10px;
-    width: 500px;
-    height: 30px;
-    text-align: center;
-    line-height: 20px;
-    font-weight: 100;
-}
-
-/* account--------------------------------------------- */
-.account {
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-
-.account-banner {
-    font-size: 30px;
-    font-weight: 700;
-    margin-top: 150px;
-}
-
-.account-body {
-    background-color: #8b806c;
-    width: 700px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.account-body .email, .account-body .password, .account-body .login {
-    background-color: white;
-    width: 400px;
-    height: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    border: black solid 1px;
-}
-
-.account-body a {
-    text-decoration: none;
-    color: black;
-}
-
-.account-body .login {
-    background-color: #623F28;
-    height: 30px;
-    color: white;
-    font-weight: 500px;
-    border: black solid 1px;
-}
-
-.register {
-    padding-bottom: 30px;
-}
-
-.register a {
-    color: black;
-}
-
-.bag {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 500px;
 }

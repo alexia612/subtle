@@ -1,8 +1,8 @@
 @charset "uft-8";
 
-.ab-banner, .contact-banner {
-  background-color: #623F28;
-  width: 1400px;
+.ab-banner {
+  background-color:#8b806c;
+  max-width: 100%;
   height: 200px;
   margin-top: 10px;
   font-size: 30px;

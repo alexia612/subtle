@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+.account {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.account-banner {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 150px;
+}
+
+.account-body {
+  background-color: #8b806c;
+  width: 700px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 15px;
+}
+
+.account-body .email, .account-body .password, .account-body .login {
+  background-color: white;
+  width: 400px;
+  height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border: black solid 1px;
+}
+
+.account-body a {
+  text-decoration: none;
+  color: black;
+}
+
+.account-body .login {
+  background-color: #623F28;
+  height: 30px;
+  color: white;
+  font-weight: 500px;
+  border: black solid 1px;
+}
+
+.register {
+  padding-bottom: 30px;
+}
+
+.register a {
+  color: black;
+}
+
+.bag {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 500px;
+}
