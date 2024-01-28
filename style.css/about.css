@@ -41,6 +41,8 @@
 
 .top, .btm, .mid {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .ab-pic {

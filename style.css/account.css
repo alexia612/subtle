@@ -19,6 +19,11 @@
   margin-right: auto;
   margin-left: auto;
   border-radius: 15px;
+  overflow: hidden;
+}
+
+.email {
+  margin-top: 20px;
 }
 
 .account-body .email, .account-body .password, .account-body .login {
